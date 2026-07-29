@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Bus Fleet Management - Admin Login</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#2563eb,#06b6d4);
+}
+
+.login-box{
+
+width:380px;
+background:white;
+padding:35px;
+border-radius:15px;
+box-shadow:0 20px 40px rgba(0,0,0,.2);
+
+}
+
+.logo{
+
+font-size:60px;
+text-align:center;
+
+}
+
+h2{
+
+text-align:center;
+margin-top:10px;
+margin-bottom:30px;
+color:#2563eb;
+
+}
+
+input{
+
+width:100%;
+padding:14px;
+margin-bottom:20px;
+border:1px solid #ddd;
+border-radius:8px;
+font-size:15px;
+
+}
+
+input:focus{
+
+outline:none;
+border-color:#2563eb;
+
+}
+
+button{
+
+width:100%;
+padding:14px;
+background:#2563eb;
+border:none;
+color:white;
+font-size:16px;
+border-radius:8px;
+cursor:pointer;
+transition:.3s;
+
+}
+
+button:hover{
+
+background:#1d4ed8;
+
+}
+
+.demo{
+
+margin-top:20px;
+text-align:center;
+color:#777;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="login-box">
+
+    <div class="logo">🚌</div>
+
+        <h2>Admin Login</h2>
+
+        <input type="text" placeholder="Username">
+
+        <input type="password" placeholder="Password">
+
+        <button onclick="login()">Login</button>
+
+    <div class="demo">
+
+        Demo Login<br>
+
+        Username : admin<br>
+
+        Password : admin
+
+    </div>
+
+</div>
+
+<script>
+
+function login(){
+
+window.location="dashboard.html";
+
+}
+
+</script>
+
+</body>
+</html>
